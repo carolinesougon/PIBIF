@@ -94,9 +94,9 @@ section{
    width: 100vw;
    height: 79vh;
    background-image: url(../imagens/fundovertical.jpg);
-   background-position: center bottom;
+   background-position: center center;
    background-repeat: no-repeat;
-   background-size: contain;
+   background-size: cover;
    background-attachment: fixed;
   }
 
