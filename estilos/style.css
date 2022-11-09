@@ -93,9 +93,13 @@ menu a:hover{
    transition: 1.1s;
 }
 
+header div>h1{
+   text-align: center;
+}
+
 section{
    width: 100vw;
-   height: 79vh;
+   height: 74.5vh;
    background-image: url(../imagens/fundovertical.jpg);
    background-position: center center;
    background-repeat: no-repeat;
