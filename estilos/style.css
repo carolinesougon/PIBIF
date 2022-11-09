@@ -32,12 +32,11 @@ header{
    
 }
 
-header img#logo{
+div#nav{
    display: block;
-   margin-left: 10px;
-   margin-top: 10px;
-
 }
+
+
 
 
 menu{
@@ -50,8 +49,8 @@ span#burguer{
    background-color: #812626;
    font-size: 2em;
    padding: 10px;
-   text-align: right; 
-   margin-right: 10px;
+   text-align: center; 
+   
    cursor: pointer;
    color: white;
 }
