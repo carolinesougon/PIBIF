@@ -20,43 +20,25 @@
 
 
 html, body{
-   background-color: whitesmoke;
+   background-color: #812626;
 }
 
 
 header{
    width: 100vw;
+   height: 90px;
    padding: 0px;
    margin: auto;
    
 }
 
-header div#logo{
-   display: inline-block;
-   margin: 20px auto 20px 20px;
-   
+header img#logo{
+   display: block;
+   margin-left: 10px;
+   margin-top: 10px;
+
 }
 
-
-header h1{
-   position: relative;
-   transform: translate(-20px, -20px);
-   display: inline-block;
-   font-family: 'dream', Arial, Helvetica, sans-serif;
-   color: #bd1616;
-   font-size: 2.5em;
-   margin: auto auto 20px 30px;
-   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479);
-   
-}
-
-header h1:hover{
-   
-   font-size: 2.7em;
-   transform: translate(-25px, -20px);
-   transition: 1s;
-   
-}
 
 menu{
    display: none;
@@ -65,10 +47,11 @@ menu{
 
 span#burguer{
    display: block;
-   background-color: #ad1616;
-   width: 100vw;
+   background-color: #812626;
+   font-size: 2em;
    padding: 10px;
-   text-align: center; 
+   text-align: right; 
+   margin-right: 10px;
    cursor: pointer;
    color: white;
 }
@@ -99,7 +82,7 @@ header{
 
 section{
    width: 100vw;
-   height: 74.5vh;
+   height: 100vh;
    background-image: url(../imagens/fundovertical.jpg);
    background-position: center center;
    background-repeat: no-repeat;
@@ -107,20 +90,20 @@ section{
    background-attachment: fixed;
   }
 
- 
-
-  footer{
-   width: 100vw;
-   background-color: #812626;
-   padding: 10px;
-   color:white;
-   text-align: center;
+  section div h1{
+      position: relative;
+      transform: translate(-20px, 338px);
+      display: inline-block;
+      font-family: 'dream', Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 3em;
+      margin: auto auto 20px 30px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479);
+   
   }
 
-
-
-
-
-
-
-
+  section h1:hover{
+      font-size: 3.5em;
+      transform: translate(-25px, 337px);
+      transition: 1s;
+  }
