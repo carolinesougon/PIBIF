@@ -32,25 +32,28 @@ header{
    
 }
 
-div#nav{
-   display: block;
-}
-
-
-
-
 menu{
    display: none;
    
 }
 
+#logo{
+   padding: 10px 10px 10px 50px;
+}
+
+
+div#nav_container{
+   display:flex;
+}
+
+
+
 span#burguer{
-   display: block;
+   display: inline-block;
+   text-align: right;
    background-color: #812626;
    font-size: 2em;
    padding: 10px;
-   text-align: center; 
-   
    cursor: pointer;
    color: white;
 }
