@@ -37,6 +37,10 @@
         background-position: center center;
     }
 
+    section div img{
+        width: 250px;
+    }
+
     section div p{
         position: relative;
         transform: translate(auto, 200px);
