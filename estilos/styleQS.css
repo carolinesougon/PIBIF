@@ -91,15 +91,22 @@ section{
    background-attachment: fixed;
   }
 
-  section div h1{
-      position: relative;
-      transform: translate(-20px, 338px);
-      display: inline-block;
-      font-family: 'dream', Arial, Helvetica, sans-serif;
-      color: white;
-      font-size: 3em;
-      margin: auto auto 20px 30px;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479);
+  section div img{
+   margin-top: 10%;
+   border-radius: 100%;
+   border: 4px solid #812626;
+  }
+
+  section div p{
+   position: relative;
+   transform: translate(auto, 200px);
+   display: inline-block;
+   font-family:  Arial, Helvetica, sans-serif;
+   color: white;
+   font-size: 1.3em;
+   text-align: justify;
+   margin: 60px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479);
    
   }
 
