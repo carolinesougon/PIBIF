@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+@font-face {
+   font-family: 'dream';
+   src: url(../fonts/dream\ orphans.otf) format('opentype');
+   font-style: normal;
+   font-size: normal;
+}
+::-webkit-scrollbar{
+   width: 0px;
+   height: 0px;
+ }
+
+*{
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+html, body{
+   background-color: #812626;
+}
+
+
+header{
+   width: 100vw;
+   height: 90px;
+   padding: 0px;
+   margin: auto;
+   
+}
+
+menu{
+   display: none;
+   
+}
+
+
+
+
+div#nav_container{
+   display:block;
+}
+
+
+
+span#burguer{
+   display: block;
+   text-align: center;
+   background-color: #812626;
+   font-size: 2em;
+   padding: 10px;
+   cursor: pointer;
+   color: white;
+}
+
+menu a{
+   display: block;
+   text-decoration: none;
+   background-color: #812626;
+   text-align: center;
+   color: white;
+   padding: 10px;
+   border-top: 1px solid  white;
+   width: 100vw;
+}
+
+menu a:hover{
+   background-color: #4e0303;
+   font-weight: bold;
+   color: rgb(255, 255, 255);
+   font-size: 1.1em;
+
+   transition: 1.1s;
+}
+
+header{
+   text-align: center;
+}
+
+section{
+   width: 100vw;
+   height: 100vh;
+   background-image: url(../imagens/fundovertical.jpg);
+   background-position: center center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+  }
+
+  section div iframe{
+   width: 400px;
+   height: 400px ;
+   margin-top: 10%;
+   border-radius: 3%;
+   
+
+  }
+
+  section div p{
+   position: relative;
+   transform: translate(auto, 200px);
+   display: inline-block;
+   font-family:  Arial, Helvetica, sans-serif;
+   color: white;
+   font-size: 1em;
+   text-align: justify;
+   margin: 60px;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479);
+   
+  }
