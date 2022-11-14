@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 992px){
+    div#nav_container{
+        display:flex;
+     }
+
+     #logo{
+        padding: 10px 10px 10px 50px;
+     }
+
+    span#burguer{display: none;}
+
+    menu{
+        display: block;
+        background-color: #812626;
+        padding: 10px;
+        margin: auto;
+        text-align: center;
+        
+    }
+     menu a{
+        display: inline;
+        text-align: center;
+        border-top: none;
+        border-radius: 5px;
+        margin: 0px 5px 0px 5px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.568);   
+     }
+
+    
+    section{
+        background-image: url(../imagens/fundo.jpg);
+        width: 100vw;
+        margin: auto;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .container{
+        display: flex;
+        position: absolute;
+        
+    }
+
+    section div h3{
+        position: relative;
+        transform: translate(500px, 320px);
+    }
+
+    section div p{
+        position: relative;
+           transform: translate(500px, 320px);
+    }
+}
