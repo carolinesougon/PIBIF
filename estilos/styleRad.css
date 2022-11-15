@@ -39,8 +39,6 @@ menu{
 }
 
 
-
-
 div#nav_container{
    display:block;
 }
@@ -91,29 +89,27 @@ section{
    background-attachment: fixed;
   }
 
-  section div iframe{
-   width: 400px;
-   height: 400px ;
-   margin-top: 10%;
-   border-radius: 3%;
-   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.644);
+  section div img{
+      position: relative;
+      transform: translate(-20px, 220px);
+      display: inline-block;
+      font-family: 'dream', Arial, Helvetica, sans-serif;
+      color: white;
+      font-size: 3em;
+      margin: auto auto 20px 30px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479);
    
-
   }
 
-  section div p{
+  section img:hover{
+      font-size: 3.5em;
+      transition: 1s;
+  }
+
+  .app{
+   width: 300px;
+   border-radius: 12px;
    position: relative;
-   transform: translate(auto, 200px);
-   display: inline-block;
-   background-color: #4e03035e;
-   padding: 15px;
-   border-radius: 10px;
-   border: 2px solid white;
-   font-family:  Arial, Helvetica, sans-serif;
-   color: white;
-   font-size: 1em;
-   text-align: justify;
-   margin: 60px;
-   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479);
-   
+   transform: translate(-20px, 200px);
+   border: 5px solid white;
   }
