@@ -36,6 +36,9 @@
         background-size: cover;
         background-position: center center;
     }
+    section h2{
+        font-size: 3em;
+    }
 
     section div img{
         width: 250px;

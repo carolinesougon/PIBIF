@@ -36,26 +36,26 @@
         height: 100vh;
         margin: auto;
         background-size: cover;
-        background-position: bottom center;
+        background-position: center center;
     }
+    
+
+    section h2{
+        font-size: 3em;
+    }
+
 
     .container{
         display: flex;
-        
+        text-align: center;  
     }
 
-    section div{
+    section div img{
+        width: 350px;
         position: relative;
-        transform: translate(460px, 270px);
+   transform: translate(0px, 200px);
     }
 
-    section div:hover{
-      cursor: pointer;
-      transition: 1.1s;
-      transform: translate(470px, 300px);
-      width: 500px;
-      
-    }
-
+    
 
 }

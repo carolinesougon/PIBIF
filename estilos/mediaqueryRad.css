@@ -36,4 +36,16 @@
         background-size: cover;
         background-position: center center;
     }
+
+    section h2{
+        font-size: 3em;
+    }
+
+    section div img{
+        transform: translate(-20px, 200px);
+    }
+
+    .app{
+        transform: translate(-20px, 170px);  
+    }
 }
