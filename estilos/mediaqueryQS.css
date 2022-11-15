@@ -37,6 +37,7 @@
         background-position: center center;
     }
     section h2{
+        padding-top: 100px;
         font-size: 3em;
     }
 
@@ -46,7 +47,7 @@
 
     section div p{
         position: relative;
-        transform: translate(auto, 200px);
+        transform: translate(auto, 150px);
         width: 800px;
         display: inline-block;
         font-family:  Arial, Helvetica, sans-serif;
