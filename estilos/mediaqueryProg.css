@@ -47,13 +47,11 @@
 
 
     .container{
-        display: flex;
-        text-align: center;  
+      display: inline-flex;  
     }
 
     section div img{
         width: 350px;
-        transform: translate(100%, 150px);
     }
 
     
