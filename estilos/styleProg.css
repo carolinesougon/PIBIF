@@ -104,20 +104,13 @@ section{
   section div img{
    width: 250px;
    position: relative;
-   transform: translate(-20px, 60px);
+   transform: translate(-20px, 40px);
    display: inline-block;
    font-family: 'dream', Arial, Helvetica, sans-serif;
    color: white;
    font-size: 3em;
-   margin: auto auto 20px 30px;
+   padding: auto auto 10px 10px;
    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.479);
-
 }
-
-section img:hover{
-   font-size: 3.5em;
-   transition: 1s;
-}
-
 
   

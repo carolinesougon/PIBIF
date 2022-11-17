@@ -38,20 +38,43 @@
     }
 
     section h2{
-        padding-top: 100px;
+        padding-top: 70px;
         font-size: 3em;
     }
+
+    .contain{
+        display: inline-flex
+    }
+
+    }
     section p{
-        font-size: 1.5em;
+        padding-top: 60px;
+        font-size: 1.2em;
     }
 
     #canal{
-        width: 600px;
-        transform: translate(-20px, 40px);
+        width: 400px;
+        
     }
 
     .social1{
-        transform: translate(0px, 30px);  
+        width: auto;
+        padding-top: 50px;
+         
     }
 
-}
+    @media screen and (min-width: 1400px){
+       Section p{
+        padding-top: 100px;
+       }
+
+       #canal{
+        width: 500px;
+       }
+
+       .social1{
+        padding-top: 80px;
+       }
+    }
+
+

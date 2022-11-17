@@ -38,15 +38,59 @@
     }
 
     section h2{
-        padding-top: 100px;
+        padding-top: 70px;
         font-size: 3em;
+    }
+    section p{
+        padding-top: 30px;
+        font-size: 1.5em;
     }
 
     section div img{
-        transform: translate(-20px, 150px);
+        width: 350px;
+        transform: translate(-20px, -30px);
     }
 
     .app{
-        transform: translate(-20px, 120px);  
+        width: 265px;
+        transform: translate(-20px, -70px);  
+    }
+
+    section div img:hover{
+        transform: translate(-10px, -35px);
+        transition: 1s;
+    }
+
+    .app:hover{
+        transform: translate(-10px, -75px);
+        transition: 1s;
+    }
+}
+@media screen and (min-width: 1400px){
+
+    section p{
+        padding-top: 60px;
+        font-size: 1.5em;
+    }
+
+
+    section div img{
+        width: 400px;
+        transform: translate(-20px,35px);
+    }
+
+    .app{
+        width: 300px;
+        transform: translate(-20px, 1px);  
+    }
+
+    section div img:hover{
+        transform: translate(-10px, 40px);
+        transition: 1s;
+    }
+
+    .app:hover{
+        transform: translate(-15px, 2px);
+        transition: 1s;
     }
 }
