@@ -17,9 +17,9 @@
         background-color: #812626;
         padding: 10px;
         margin: auto;
-        text-align: center;
-        
+        text-align: center;  
     }
+
      menu a{
         display: inline;
         text-align: center;
@@ -46,7 +46,7 @@
         display: inline-flex
     }
 
-    }
+    
     section div p{
         padding-top: 60px;
         font-size: 1.2em;
@@ -63,12 +63,25 @@
          
     }
 
+    #canal:hover{
+        transition: 1s;
+        width: 325px;
+    }
+
+    .social1:hover{
+        transition: 1s;
+        width: 225px;
+    }
+
+}
+
+
     @media screen and (min-width: 1400px){
        Section p{
         padding-top: 100px;
        }
 
-    span div #canal{
+        #canal{
         width: 550px;
        }
 
@@ -76,6 +89,16 @@
         padding-top: 70px;
         width: 300px;
        }
+
+       #canal:hover{
+        width: 525px;
+       }
+
+       .social1:hover{
+        width: 275px ;
+       }
+
+
     }
 
 
