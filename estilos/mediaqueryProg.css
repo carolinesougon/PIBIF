@@ -55,7 +55,7 @@
     }
     
     section div img:hover{
-        transform: translate(-20px, 55px);
+        transform: translate(0px, 20px);
         width: 380px;
         transition: 1s;
     }
