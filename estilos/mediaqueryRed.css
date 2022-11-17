@@ -47,18 +47,18 @@
     }
 
     }
-    section p{
+    section div p{
         padding-top: 60px;
         font-size: 1.2em;
     }
 
     #canal{
-        width: 400px;
+        width: 350px;
         
     }
 
     .social1{
-        width: auto;
+        width: 250px;
         padding-top: 50px;
          
     }
@@ -68,12 +68,13 @@
         padding-top: 100px;
        }
 
-       #canal{
-        width: 500px;
+    span div #canal{
+        width: 550px;
        }
 
        .social1{
-        padding-top: 80px;
+        padding-top: 70px;
+        width: 300px;
        }
     }
 
