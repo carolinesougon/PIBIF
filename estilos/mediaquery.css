@@ -36,4 +36,26 @@
         background-size: cover;
         background-position: center center;
     }
+
+    section div h1{
+        position: relative;
+        transform: translate(-20px, 250px);
+    }
+
+    section h1:hover{
+        font-size: 3.5em;
+        transform: translate(-25px, 260px);
+}
+}
+
+@media screen and (min-width: 1400px) {
+    section div h1{
+        position: relative;
+        transform: translate(-20px, 390px);
+    }
+
+    section h1:hover{
+        font-size: 3.5em;
+        transform: translate(-25px, 400px);
+    }
 }
